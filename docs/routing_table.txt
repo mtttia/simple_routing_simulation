@@ -1,0 +1,116 @@
+Tabella di routing per il nodo A:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |   0   |    A    
+     B       |   5   |    B    
+     C       |   7   |    B    
+     D       |  10   |    D    
+     E       |  27   |    B    
+     F       |  43   |    D    
+     G       |  48   |    D    
+     H       |  49   |    D    
+     I       |  40   |    D    
+
+Tabella di routing per il nodo B:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |   5   |    A    
+     B       |   0   |    B    
+     C       |   2   |    C    
+     D       |   5   |    C    
+     E       |  22   |    C    
+     F       |  38   |    C    
+     G       |  43   |    C    
+     H       |  44   |    C    
+     I       |  35   |    C    
+
+Tabella di routing per il nodo C:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |   7   |    B    
+     B       |   2   |    B    
+     C       |   0   |    C    
+     D       |   3   |    D    
+     E       |  20   |    E    
+     F       |  36   |    D    
+     G       |  41   |    D    
+     H       |  42   |    D    
+     I       |  33   |    D    
+
+Tabella di routing per il nodo D:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |  10   |    A    
+     B       |   5   |    C    
+     C       |   3   |    C    
+     D       |   0   |    D    
+     E       |  23   |    C    
+     F       |  33   |    I    
+     G       |  38   |    I    
+     H       |  39   |    I    
+     I       |  30   |    I    
+
+Tabella di routing per il nodo E:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |  27   |    C    
+     B       |  22   |    C    
+     C       |  20   |    C    
+     D       |  23   |    C    
+     E       |   0   |    E    
+     F       |  20   |    F    
+     G       |  25   |    F    
+     H       |  32   |    F    
+     I       |  23   |    F    
+
+Tabella di routing per il nodo F:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |  43   |    I    
+     B       |  38   |    I    
+     C       |  36   |    I    
+     D       |  33   |    I    
+     E       |  20   |    E    
+     F       |   0   |    F    
+     G       |   5   |    G    
+     H       |  12   |    G    
+     I       |   3   |    I    
+
+Tabella di routing per il nodo G:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |  48   |    F    
+     B       |  43   |    F    
+     C       |  41   |    F    
+     D       |  38   |    F    
+     E       |  25   |    F    
+     F       |   5   |    F    
+     G       |   0   |    G    
+     H       |   7   |    H    
+     I       |   8   |    F    
+
+Tabella di routing per il nodo H:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |  49   |    I    
+     B       |  44   |    I    
+     C       |  42   |    I    
+     D       |  39   |    I    
+     E       |  32   |    G    
+     F       |  12   |    G    
+     G       |   7   |    G    
+     H       |   0   |    H    
+     I       |   9   |    I    
+
+Tabella di routing per il nodo I:
+Destinazione | Costo | Next Hop
+-----------------------------------
+     A       |  40   |    D    
+     B       |  35   |    D    
+     C       |  33   |    D    
+     D       |  30   |    D    
+     E       |  23   |    F    
+     F       |   3   |    F    
+     G       |   8   |    F    
+     H       |   9   |    H    
+     I       |   0   |    I   
