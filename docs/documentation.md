@@ -71,7 +71,6 @@ L'implementazione del Distance Vector Routing segue questi passaggi:
 
 Il codice implementa l'algoritmo di Bellman-Ford distribuito, dove ogni nodo:
 - Mantiene le distanze verso tutte le destinazioni
-- Scambia periodicamente la propria tabella con i vicini
 - Aggiorna i costi quando trova percorsi migliori
 
 #### 3.3 Simulazione del Ping
@@ -215,7 +214,7 @@ ping from A to H, A -> D -> I -> H, count: 49
 ```
 Questo indica che:
 - Il pacchetto attraversa 4 nodi
-- Il costo totale del percorso è 97
+- Il costo totale del percorso è 49, dimostrando di preferire il precedente percorso ad altri percorsi possibili ma più costosi
 
 ### 5. Conclusioni
 
